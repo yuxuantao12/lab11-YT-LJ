@@ -20,7 +20,7 @@ class TestCalculator(unittest.TestCase):
     
 
     def test_divide_by_zero(self):
-        self.assertRaises(ZeroDivisionError, divide, 5, 0)
+        self.assertRaises(ZeroDivisionError, div, 5, 0)
 
     
     def test_logarithm(self):
@@ -38,14 +38,14 @@ class TestCalculator(unittest.TestCase):
     
 
     def test_multiply(self):
-        self.assertEqual(multiply(3, 4), 12)
-        self.assertEqual(multiply(-2, 5), -10)
-        self.assertEqual(multiply(0, 999), 0)
+        self.assertEqual(mul(3, 4), 12)
+        self.assertEqual(mul(-2, 5), -10)
+        self.assertEqual(mul(0, 999), 0)
     
 
     def test_divide(self):
-        self.assertEqual(divide(10, 2), 5)
-        self.assertEqual(divide(-20, 5), -4)
+        self.assertEqual(div(10, 2), 5)
+        self.assertEqual(div(-20, 5), -4)
 
 
     def test_log_invalid_argument(self):
