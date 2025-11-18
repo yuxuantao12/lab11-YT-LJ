@@ -1,3 +1,7 @@
+# https://github.com/yuxuantao12/lab11-YT-LJ
+# Partner 1: Yuxuan Tao
+# Partner 2: Liam Jensen
+
 import unittest
 from calculator import *
 
