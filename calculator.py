@@ -3,7 +3,6 @@
 # Partner 2: Liam Jensen
 
 import math
-import pytest
 
 
 def square_root(a):
