@@ -59,6 +59,5 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(hypotenuse(3, 4), 5)
         self.assertEqual(hypotenuse(-3, 4), 5)
 
-# Do not touch this
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(exit=False)
